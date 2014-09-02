@@ -1,0 +1,17 @@
+# Eclipse
+.settings/
+.project
+.buildpath
+local.properties
+
+# Magento
+app/etc/local.xml
+media/
+var/
+index.php
+
+# Misc
+# Set your files under this section
+*.tmp
+*.log
+gign*

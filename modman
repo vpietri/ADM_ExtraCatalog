@@ -1,0 +1,11 @@
+# Module ADM_ExtraCatalog
+skin/frontend/base/default/css/adm/extracatalog.css   skin/frontend/base/default/css/adm/extracatalog.css
+skin/frontend/base/default/images/adm/extracatalog  skin/frontend/base/default/images/adm/extracatalog
+app/locale/it_IT/ADM_ExtraCatalog.csv   app/locale/it_IT/ADM_ExtraCatalog.csv
+app/locale/fr_FR/ADM_ExtraCatalog.csv   app/locale/fr_FR/ADM_ExtraCatalog.csv
+app/locale/es_ES/ADM_ExtraCatalog.csv   app/locale/es_ES/ADM_ExtraCatalog.csv
+app/locale/en_US/ADM_ExtraCatalog.csv   app/locale/en_US/ADM_ExtraCatalog.csv
+app/code/community/ADM/ExtraCatalog   app/code/community/ADM/ExtraCatalog
+app/design/frontend/base/default/template/adm/extracatalog   app/design/frontend/base/default/template/adm/extracatalog
+app/design/frontend/base/default/layout/adm/extracatalog.xml   app/design/frontend/base/default/layout/adm/extracatalog.xml
+app/etc/modules/ADM_ExtraCatalog.xml   app/etc/modules/ADM_ExtraCatalog.xml

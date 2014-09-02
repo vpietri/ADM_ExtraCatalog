@@ -1,0 +1,21 @@
+.nav_product {
+    left: -70px;
+    right: -70px;
+    position: absolute;
+}
+
+.nav_prev, .nav_next {
+  position: relative;
+  top:10%;
+  background: url("/skin/frontend/default/default/images/bkg_block-title.gif") repeat-x scroll 50% 50% #F7FAFB;
+  border: 1px solid #B2DAF0;
+}
+
+.nav_prev a, .nav_prev a:hover, .nav_next a, .nav_next a:hover{
+  text-decoration:none;
+  padding:10px
+}
+
+.nav_category {float:left;padding-left:40%}
+.nav_prev {float:left;}
+.nav_next {float:right;}

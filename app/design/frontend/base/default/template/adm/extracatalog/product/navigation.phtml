@@ -1,0 +1,29 @@
+<?php
+// $this->getNavProducts();
+// return '';
+?>
+
+<?php if($this->canDisplayNavProduct()): ?>
+<div class="nav_product">
+	<div class="product-image nav_prev">
+		<?php if($this->getPreviousProduct()):?>
+		<a href="<?php echo Mage::getBaseUrl().$this->getPreviousProduct()->getUrlPath(); ?>" title="<?php echo $this->getPreviousProduct()->getName(); ?>"><?php echo $this->__('Previous')?></a>
+		<?php endif; ?>
+  </div>
+
+	<?php if($this->getCategoryBackUrl()): ?>
+		<div class="nav_category">
+      <span class="nav_position"><?php echo $this->getCurrentProductPosition(); ?>/<?php echo $this->getNavProductsSize(); ?> </span>
+			<a href="<?php echo $this->getCategoryBackUrl(); ?>" title="<?php echo $this->getCategoryBackName(); ?>" ><?php echo $this->__('Back list')?></a>
+		</div>
+	<?php endif;?>
+
+  <div class="product-image nav_next">
+		<?php if($this->getNextProduct()):?>
+		<a href="<?php echo Mage::getBaseUrl().$this->getNextProduct()->getUrlPath(); ?>" title="<?php echo $this->getNextProduct()->getName(); ?>"><?php echo $this->__('Next')?></a>
+		<?php endif; ?>
+	</div>
+</div>
+<br/>
+<?php endif; ?>
+
